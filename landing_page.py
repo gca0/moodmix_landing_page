@@ -131,7 +131,7 @@ st.markdown("<p style='opacity: 0; animation: fadeIn 8s ease forwards;'><strong>
             "<u><strong>moodmix aims to solve that</strong></u>. <br>" "based on inputted adjectives or nouns fitting the desired atmosphere, "
             "a playlist is generated for you.</p>", unsafe_allow_html=True)
 
-url = 'https://moodmix-main.streamlit.app/?embedded=true'
+url = 'https://moodmix-main.streamlit.app/?embedded=true/'
 
 st.markdown(f'''
 <a href={url} target="_self"><button style="opacity: 0; animation: fadeIn 5s ease forwards; background-color:black; border-radius: 20px; padding: 10px 20px; border: none; color: white;">get started</button></a>
