@@ -137,7 +137,7 @@ st.markdown(f'''
 <a href='https://moodmix-main.streamlit.app/?embedded=true/' target="_self"><button style="opacity: 0; animation: fadeIn 5s ease forwards; background-color:black; border-radius: 20px; padding: 10px 20px; border: none; color: white;">get started</button></a>
 ''', unsafe_allow_html=True)
 
-st.markdown("<small>if page does not load, click <a href='https://moodmix-main.streamlit.app' target='_blank'>here</a></small>", unsafe_allow_html=True)
+st.markdown("<small>if 'get started' page does not load, click <a href='https://moodmix-main.streamlit.app' target='_blank'>here</a></small>", unsafe_allow_html=True)
 
 
 
