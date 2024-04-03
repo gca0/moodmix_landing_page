@@ -127,11 +127,11 @@ st.markdown("<h1 style='color: white; opacity: 0; animation: fadeIn 8s ease forw
             "<span style='font-weight:normal;'>welcome to </span><span style='font-weight:bold;'>moodmix</span>"
             "</h1>", unsafe_allow_html=True)
 st.markdown("<p style='opacity: 0; animation: fadeIn 8s ease forwards;'><strong>we are always trying to discover new music.</strong><br>" "but what if we don't know what songs we want to listen to? "
-            "what if we only know a certain <i><strong>vibe</strong></i> or <i><strong>mood</strong></i> we want to listen to?<br>"
+            "what if we only know a certain <strong>vibe</strong> or <strong>mood</strong> we want to listen to?<br>"
             "<u><strong>moodmix aims to solve that</strong></u>. <br>" "based on inputted adjectives or nouns fitting the desired atmosphere, "
             "a playlist is generated for you.</p>", unsafe_allow_html=True)
 
-# url = 'https://moodmix-main.streamlit.app/?embedded=true/'
+# url = 'https://moodmix-main.streamlit.app'
 
 st.markdown(f'''
 <a href='https://moodmix-main.streamlit.app/?embedded=true/' target="_self"><button style="opacity: 0; animation: fadeIn 5s ease forwards; background-color:black; border-radius: 20px; padding: 10px 20px; border: none; color: white;">get started</button></a>
