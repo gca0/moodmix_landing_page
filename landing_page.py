@@ -130,7 +130,7 @@ st.markdown("<h1 style='color: white; opacity: 0; animation: fadeIn 8s ease forw
 
 st.markdown("<p style='opacity: 0; animation: fadeIn 10s ease forwards; font-size: 20px;'><strong>we are always trying to discover new music.</strong><br>" "what if we don't know what songs we want to listen to? "
             "what if we only know a <strong>vibe</strong> or <strong>mood</strong> we want to listen to?<br>"
-            "<i><strong>moodmix aims to solve that</strong></i>. <br>" "based on inputted adjectives or nouns fitting the desired atmosphere, "
+            "<i><strong>moodmix aims to solve that</strong></i>. <br>" "based on inputted adjectives, nouns or verbs fitting the desired atmosphere, "
             "a playlist is generated for you.</p>", unsafe_allow_html=True)
 
 # url = 'https://moodmix-main.streamlit.app'
@@ -139,7 +139,7 @@ st.markdown(f'''
 <a href='https://moodmix-main.streamlit.app' target="_blank"><button style="font-weight:bold; opacity: 0; animation: fadeIn 5s ease forwards; background-color:black; border-radius: 20px; padding: 10px 20px; border: none; color: white;">get started</button></a>
 ''', unsafe_allow_html=True)
 
-st.markdown("<small>if 'get started' page does not load, click <a href='https://moodmix-main.streamlit.app' target='_blank'>here</a></small>", unsafe_allow_html=True)
+# st.markdown("<small>if 'get started' page does not load, click <a href='https://moodmix-main.streamlit.app' target='_blank'>here</a></small>", unsafe_allow_html=True)
 
 
 
